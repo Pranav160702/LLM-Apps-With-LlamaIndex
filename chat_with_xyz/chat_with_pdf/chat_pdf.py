@@ -81,8 +81,6 @@ def main():
     # Initialize Settings
     initialize_settings()
 
-    # Sidebar
-    st.sidebar.header("Configuration")
     uploaded_file = st.sidebar.file_uploader("Upload a PDF", type=["pdf"])
 
     # Main content

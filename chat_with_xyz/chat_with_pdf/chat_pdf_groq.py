@@ -63,3 +63,4 @@ def load_pdf(file_path: str) -> VectorStoreIndex:
         st.error(f"Error loading PDF: {str(e)}")
         return None
     
+    
